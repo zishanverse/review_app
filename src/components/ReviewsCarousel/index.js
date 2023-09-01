@@ -28,7 +28,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             data-testid="leftArrow"
-            onClick={index > 0 && this.leftReview}
+            onClick={() => index > 0 && this.leftReview()}
             className="btn"
           >
             <img
